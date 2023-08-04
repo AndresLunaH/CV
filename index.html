@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Andy Lunari</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Menu interface-->
+    <div class="content-header">
+        <header>
+            <div class="logo">
+                <a href="#">☪ Andy Lunari</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#Home" onclick="seleccionar()"a>HOME</a></li>
+                    <li><a href="#Aboutme" onclick="seleccionar()" a>ABOUT ME</a></li>
+                    <li><a href="#Skills"onclick="seleccionar()" a>SKILLS</a></li>
+                    <li><a href="#Curriculum" onclick="seleccionar()" a>CURRICULUM</a></li>
+                    <li><a href="#Portfolio"onclick="seleccionar()" a>PORTFOLIO</a></li>
+                    <li><a href="#Contact"onclick="seleccionar()" a>CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    
+    <!--Home-->
+    <section id="Home" class="Home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/Hero.jpg" alt="">
+            </div>
+            <h1>Andy Lunari</h1>
+            <h2>Front-End Developer UX Designer</h2>
+            <div class="websites">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--About me-->
+    <section id="Aboutme"class="profile-description">
+        <div class="container-section">
+            <h2>ABOUT ME</h2>
+            <p><span> Hi, my name is Andrés Luna but my personal brand is Andy Lunari</span> My passion is to create pages that are empathic and user oriented, I'm a front-end developer and a UX Designer.</p>
+        <div class="fila">
+            <!--Personal contact info-->
+            <div class="col">
+                <h3>Personal Info</h3>
+                <ul>
+                    <li>
+                        <strong>Birthday</strong>
+                        April 19th 1994
+                    </li>
+                    <li>
+                        <strong>Cellphone</strong>
+                        +52 2228465841
+                    </li>
+                    <li>
+                        <strong>E-mail</strong>
+                        andylunari19@gmail.com
+                    </li>
+                    <li>
+                        <strong>Website</strong>
+                        https://andylunari.000webhostapp.com/
+                    </li>
+                </ul>
+            </div>
+            <!--Interest-->
+            <div class="col">
+                <h3>Interests</h3>
+                <div class="interests-container">
+                    <div class="interests">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Videogames</span>
+                    </div>
+                    <div class="interests-container">
+                        <div class="interests">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Gym</span>
+                        </div>
+                    </div>
+                    <div class="interests-container">
+                        <div class="interests">
+                            <i class="fa-solid fa-book"></i>    
+                            <span>Books</span>
+                        </div>
+                    </div>
+                    <div class="interests-container">
+                        <div class="interests">
+                            <i class="fa-solid fa-music"></i>    
+                            <span>Music</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vSm3cf9C_5pB-vjIlj20g7LNbGSzg5U3EqMdl8FqXxYvefESDsdR0ZIAq98KSIwMg/pub">
+                Download CV <i class="fa-solid fa-download">
+                    <span class="overlay"></span>
+                </a>    
+                </i>
+            </button>
+        </div>
+    </section>
+    <!--Skills-->
+    <section id="Skills" class="skills">
+        <div class="skills-container">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe Xd</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>REACT</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NPM Node</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Empathic Desing</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicative</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Leading</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Autonomous</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Problem Solving</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Time management</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CV-->
+    <section id="Curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>UX designer</h4>
+                        <span class="casa">Google certificate</span>
+                        <span class="fecha">2022-2023</span>
+                        <p> Here a learnt about mockups, prototypes, user oriented design, adobe Xd, figma, I made some designs for differents porpuses.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>IT </h4>
+                        <span class="casa">Instituto Rosario Castellanos</span>
+                        <span class="fecha">2022-NOW</span>
+                        <p>Currently, at the time i'm still working on my professional stage, I start a new carreer pathway. I would like to improve my skills as developer.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Fullstack Developer </h4>
+                        <span class="casa">Launch X</span>
+                        <span class="fecha">2022-2022</span>
+                        <p> Here I learned about front-end, back-end and about page prototype. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Chemestry-Pharmacobiology</h4>
+                        <span class="casa">Bachelor's degree at BUAP</span>
+                        <span class="fecha">2012-2017</span>
+                        <p>At this time I learned about chemicals and its reactions in the body to create some treatments. Researcher abilities were important at this time. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Working Experience</h3>
+                    <div class="item der">
+                        <h4>Invoince associated</h4>
+                        <span class="casa">Accepti Contadores</span>
+                        <span class="fecha">2017-NOW</span>
+                        <p> Invoice associated, and IT support. Here I was on charge in the invoice area, also I was in charge of some client support on IT</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4> Researcher </h4>
+                        <span class="casa">Benemerita Universidad Autonoma de Puebla</span>
+                        <span class="fecha">2014-2016</span>
+                        <p> In this work I learned how to make accurate inventory, meds administration, oral, intraperitoneal, intramuscular, and perfundation was some of the techniques I made my day on day.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="Portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1679513698800/4a23d151-0ff0-41f6-9d5d-49c2d6a40d87/Google%20UX%20Design%20Certificate%20-%20Portfolio%20Project%203%20-%20Case%20study%20slide%20deck%20%5BTemplate%5D%20%281%29.pdf">
+                    <img src="img/Positive jobs.png" alt="">
+                    <div class="overlay">
+                        <h3>Positive jobs</h3>
+                        <p>UX design</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTeJ_GuF-6sPK1-hGzS4Q_s2HpndWxH_hDR7Bzyx_m8rlPQ2CTQsX8Wska6zDHM20BzQ_-xEAFj-CPI/pub?start=false&loop=false&delayms=3000">
+                    <img src="img/Wedding places.png" alt="">
+                    <div class="overlay">
+                            <h3>Wedding Places</h3>
+                        <p>UX design</p>
+                    </div>
+                    </a>    
+                </div>
+                <div class="proyecto">
+                    <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1676827905663/ee93656a-0451-4654-a843-45916a30fc3d/Medtrack.pdf">
+                    <img src="img/Captura de pantalla 2023-03-27 a la(s) 20.18.51.png" alt="">
+                    <div class="overlay">
+                        <h3>MEDTRACK</h3>
+                        <p>UX Design</p>
+                    </div>
+                    </a>
+                </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="Contact" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT </h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Mobile number">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Theme">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Puebla, Mexico.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call me: +52 2228465841 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: andylunari19@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#Home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
